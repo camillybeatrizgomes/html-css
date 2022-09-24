@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            margin-left: 40px;
+        }
+
+        ul{
+            list-style-position: inside;
+        }
+
+        ul > .li1{
+            list-style-type: '\002A\ '
+        }
+        ul > .li2{
+            list-style-type: '\002A\00A0\002A\00A0'
+        }
+
+        ul > .li3{
+            list-style-type: '\002A\00A0\002A\00A0\002A\00A0'
+        }
+
+        ul > .li4{
+            list-style-type: '\002A\00A0\002A\00A0\002A\00A0\002A\00A0'
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio das Mensagens</h1>
+    <div>
+        <ul>
+            <li class="li1">Um</li>
+            <li class="li2">Dois</li>
+            <li class="li3">Três</li>
+            <li class="li4">Quatro</li>
+        </ul>
+        <ul>
+            <li class="li4">Quatro</li>
+            <li class="li3">Três</li>
+            <li class="li2">Dois</li>
+            <li class="li1">Um</li>
+        </ul>
+    </div>
+</body>
+</html>
