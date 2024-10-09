@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+}
+
+h1 {
+    text-align: center;
+}
+
+p.meio {
+    display: block;
+    text-align: center;
+}
+
+.videos a img {
+    width: 300px;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+a:link, a:visited, a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
