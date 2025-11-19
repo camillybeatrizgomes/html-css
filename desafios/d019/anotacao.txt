@@ -1,0 +1,11 @@
+O SVG como XML
+
+A principal ideia é entender que um arquivo **SVG** não é uma imagem tradicional (como um JPG ou PNG), mas sim um arquivo de texto escrito em formato XML (Extensible Markup Language). O XML é uma linguagem de marcação muito parecida com o HTML, mas que descreve dados. No caso do SVG, ele descreve formas geométricas (caminhos, círculos, retângulos) que formam o desenho. Por ser um arquivo de texto, podemos abri-lo e editar o seu código diretamente.
+
+O Processo de Edição Simples
+
+Para facilitar a edição e visualização desse código, a técnica consiste em renomear o arquivo temporariamente. Se você mudar a extensão do arquivo de .svg para .xml, o editor de código (como o Visual Studio Code) passa a tratá-lo apenas como um arquivo de texto comum, revelando todo o código-fonte. Dentro desse código, você pode adicionar uma seção de estilos (CSS), similar ao que fazemos em páginas web.
+
+Aplicando Estilos (CSS)
+
+Ao adicionar a tag <style> dentro do arquivo, você pode usar seletores para atingir as partes específicas do desenho (como um <path> ou um <circle>). É aqui que a mágica acontece. Você pode aplicar propriedades CSS como fill para mudar a cor de preenchimento do desenho, ou stroke e stroke-width para definir a cor e a espessura da linha de contorno. Depois de fazer as alterações, basta salvar e renomear o arquivo de volta para .svg. O navegador ou o editor de código passará a exibir o ícone com os novos estilos aplicados. Essa técnica é poderosa porque permite mudar a aparência do ícone sem precisar de um programa de edição de imagens.
